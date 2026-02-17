@@ -1,0 +1,42 @@
+input{
+    padding: 1.3rem 14rem;
+    border-radius: 6px;
+    font-size: x-large;
+    background-color:aliceblue;
+    color:black;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    box-shadow: white 6px 7px;
+    margin-bottom: 4rem;
+}
+
+body{
+ background: linear-gradient(to bottom, #4a90e2, #357ABD);
+ background: linear-gradient(to bottom, #4a90e2, #357ABD), 
+ linear-gradient(to top, rgba(255,255,255,0.4), rgba(255,255,255,0));
+ background-blend-mode: overlay;
+
+
+}
+button{
+    background-color: #4a90e2;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-right: 4rem;
+}
+select{
+    background-color: #4a90e2;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    border: white;
+    margin-bottom: 3rem;
+
+}
+.card{
+    margin-left: 22rem;
+    margin-bottom: 15rem;
+}
+.list{
+    border: 4px groove white;
+    margin: 10px 0;
+    padding: 10px;
+}
