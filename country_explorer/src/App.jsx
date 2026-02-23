@@ -11,7 +11,6 @@ function App() {
   const [search, setSearch] = useState("");
   const [region, setRegion] = useState("all");
 
-  // Fetch function outside useEffect so Retry button can call it
   const getCountries = async () => {
     try {
       setLoading(true);
@@ -24,6 +23,7 @@ function App() {
       } else if (region !== "all") {
         url = `https://restcountries.com/v3.1/region/${region}`;
       }
+
 
       const response = await fetch(url);
       if (!response.ok) throw new Error("Something went wrong");
